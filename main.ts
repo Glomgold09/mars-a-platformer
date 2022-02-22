@@ -607,6 +607,38 @@ current_Level = 0
 Level()
 info.setLife(5)
 info.setScore(0)
+pause(2000)
+game.showLongText("Hello, this is your captain speaking!", DialogLayout.Bottom)
+game.showLongText("Your main mission is to get to your spaceship!!!", DialogLayout.Bottom)
+game.showLongText("Before the martians eat you!", DialogLayout.Bottom)
+game.showLongText("Don't go down certain dark pits.", DialogLayout.Bottom)
+game.showLongText("Don't touch the martian flowers or the martian flies will come out and eat you.", DialogLayout.Bottom)
+game.setDialogFrame(img`
+    ..bbbbbbbbbbbbbbbbbbbb..
+    .bd111111111111111111db.
+    bd1dbbbbbbbbbbbbbbbbd1db
+    b1dbbbbbbbbbbbbbbbbbbd1b
+    b1bd1111111111111111db1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1b111111111111111111b1b
+    b1bd1111111111111111db1b
+    bd1bbbbbbbbbbbbbbbbbb1db
+    bbd111111111111111111dbb
+    .bbbbbbbbbbbbbbbbbbbbbb.
+    ..bbbbbbbbbbbbbbbbbbbb..
+    `)
 game.onUpdate(function () {
     thePlayer.setImage(img`
         . . . . . . . . . . . . . . . . 
